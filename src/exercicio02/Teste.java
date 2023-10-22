@@ -7,7 +7,8 @@ public class Teste {
 
         funcionario.setSalario(2000F);
         funcionario.aumentar(300F);
-
+        System.out.println(funcionario.getSalario());
+        funcionario.aumentar(300F, 50F);
         System.out.println(funcionario.getSalario());
 
     }
